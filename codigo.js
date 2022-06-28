@@ -31,7 +31,15 @@ dibujarLinea("black",300,310,300,320);
 
 dibujarArco("black",250,110,40,1,90);
 
+dibujarArco("black",240,93,3,1,90);
+dibujarArco("black",265,93,3,1,90);
 
+lienzo.strokeStyle="black";
+lienzo.beginPath();
+lienzo.arc(250,120,20,0,Math.PI,false);
+lienzo.stroke();
+lienzo.font = "20pt Verdana";
+lienzo.strokeText("Dibujo",0,20)
 
     
 
